@@ -1,2 +1,2 @@
-# dlance
-dLance is a Decentralized Freelance Marketplace
+# Upwork-SignUp
+Fully responsive Upwork Sign-Up Page
