@@ -1,0 +1,53 @@
+{
+  "name": "dwork",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://mahwishizhar.github.io/Landing-Page",
+  "dependencies": {
+    "@emotion/core": "^10.0.27",
+    "@material-ui/core": "^4.8.2",
+    "@material-ui/icons": "^4.5.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "@testing-library/user-event": "^7.2.1",
+    "gh-pages": "^2.2.0",
+    "local-storage": "^2.0.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-dropdown": "^1.6.4",
+    "react-grid-system": "^6.0.7",
+    "react-redux": "^7.1.3",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.3.0",
+    "react-spinners": "^0.7.2",
+    "react-toasts": "^3.0.6",
+    "reactjs-dropdown-component": "^1.0.6",
+    "redux": "^4.0.5",
+    "web3": "^1.0.0-beta.46"
+
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
