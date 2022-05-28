@@ -20,7 +20,7 @@ render(props){
             <div class="body-wrap" >
                 <HeaderImage source = {Logo}/>
                 <MainBody/>
-                <Footer image = {Logo} alter = "Logo" copyright = "2020 Dwork, all rights reserved"/>
+                <Footer image = {Logo} alter = "Logo" copyright = "2020 dLance, all rights reserved"/>
             </div>
         </body>
 

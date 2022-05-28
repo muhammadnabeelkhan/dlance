@@ -80,7 +80,7 @@ class CreateJobCard extends Component {
         return (<Paper elevation={3} className="Container"   >
 
             <div className="descContainer" >
-                <h6 className="textStyle">Create Dwork Job</h6>
+                <h6 className="textStyle">Create dLance Job</h6>
             </div>
 
 

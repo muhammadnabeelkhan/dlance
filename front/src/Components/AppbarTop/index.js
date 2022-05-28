@@ -79,7 +79,7 @@ const AppbarTop = (props) =>
         <MenuIcon />
       </IconButton>
       <Typography variant="h6" color="inherit" noWrap  >
-       Dwork
+       dLance
          
       </Typography>
     

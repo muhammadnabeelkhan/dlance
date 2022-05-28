@@ -12,7 +12,7 @@ return(
     <div class="container-sm">
         <div class="pricing-inner section-inner">
             <PricingHeading title = "Unlimited for all"  
-            description = "Dwork does not take any commision from client or freelancers. Only the amount of gas fee is deducted for the completion of transaction"/>
+            description = "dLance does not take any commision from client or freelancers. Only the amount of gas fee is deducted for the completion of transaction"/>
             
             <div class="pricing-tables-wrap">
                 <div class="pricing-table">

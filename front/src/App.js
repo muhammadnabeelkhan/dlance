@@ -18,7 +18,7 @@ const Routing = (props) => {
     <Switch>
     
       <Route exact path="/" component={Landingpage} />
-      <Route exact path="/dwork" component={Landingpage} />
+      <Route exact path="/dLance" component={Landingpage} />
       <LoadingOverlay
       active={props.Reducer.loading}
       spinner
@@ -27,8 +27,8 @@ const Routing = (props) => {
       <Dashboard>
         <Route component={({ match }) => {
           return <div style={{height:'100%',width:'100%'}}>
-            <Route exact path="/dwork/signin" component={SigninForm} />
-            <Route exact path="/dwork/home" component={ResponsiveDrawer}
+            <Route exact path="/dLance/signin" component={SigninForm} />
+            <Route exact path="/dLance/home" component={ResponsiveDrawer}
             // render={(props) => <ResponsiveDrawer {...props} isAuthed={true} />}
             />
 

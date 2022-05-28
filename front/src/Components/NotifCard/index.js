@@ -26,9 +26,9 @@ class NotifCard extends Component {
                 window.ethereum.enable().then(function (d) {
                     // User has allowed account access to DApp...
                     // console.log('meta mask succ ', d[0])
-                    const dwork = new web3.eth.Contract(smart_contract_ABI, smart_contract_address)
+                    const dLance = new web3.eth.Contract(smart_contract_ABI, smart_contract_address)
 
-                    dwork.methods.completeJob(data)
+                    dLance.methods.completeJob(data)
                     .send({ from: d[0] })
                     .once('receipt', (receipt) => {
                         console.log(receipt)

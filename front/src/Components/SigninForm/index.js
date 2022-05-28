@@ -103,11 +103,11 @@ class SigninForm extends React.Component {
         if (success.status == 'success') {
           ToastsStore.success(success.message)
           ls.set('userInfo',success.userdata)
-          setTimeout(() => this.props.history.push('/dwork/Home'), 1300)
+          setTimeout(() => this.props.history.push('/dLance/Home'), 1300)
         }
         else {
           ToastsStore.error(success.message)
-          setTimeout(() => this.props.history.push('/dwork/signin'), 1300)
+          setTimeout(() => this.props.history.push('/dLance/signin'), 1300)
         }
   
   
@@ -168,11 +168,11 @@ class SigninForm extends React.Component {
 
       if (success.status == 'success') {
         ToastsStore.success(success.message)
-        setTimeout(() => this.props.history.push('/dwork/signin'), 1300)
+        setTimeout(() => this.props.history.push('/dLance/signin'), 1300)
       }
       else {
         ToastsStore.error(success.message)
-        setTimeout(() => this.props.history.push('/dwork/signin'), 1300)
+        setTimeout(() => this.props.history.push('/dLance/signin'), 1300)
       }
 
 

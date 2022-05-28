@@ -14,7 +14,7 @@ class Title extends React.Component
 	_onButtonClick = () => {
 		console.log(this.props);
 		
-		this.props.history.push('/dwork/signin')
+		this.props.history.push('/dLance/signin')
 	}
 
 	render(){

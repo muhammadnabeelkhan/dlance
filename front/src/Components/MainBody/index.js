@@ -8,7 +8,7 @@ import Pricing from '../Pricing';
 const MainBody = () => {
     return (
         <main>
-            <Title title="Dwork"
+            <Title title="dLance"
                 description="A blockchain based freelancing platform that gives freelancers 100% of what they earn"
                 buttonText="get started" />
 

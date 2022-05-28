@@ -15,21 +15,21 @@ class Help extends Component {
 
         return <>
             <p style={{ color: '#000', width: '80vw', fontSize: '16px' }}>
-                1.) Signup on Dwork using your email address,
+                1.) Signup on dLance using your email address,
                  pick a password of 8 in length and from the account type drop-drown, choose "Freelancer". 
                  Fill out the remaining information and signup.
                 
             </p>
 
             <p style={{ color: '#000', width: '80vw', fontSize: '16px' }}>
-            2.) Log in to the Dwork using your credentials and from the account type drown, choose
+            2.) Log in to the dLance using your credentials and from the account type drown, choose
 "Freelancer".
                 
             </p>
 
             <p style={{ color: '#000', width: '80vw', fontSize: '16px' }}>
             3.) After logging in, you will see the Home of dashboard. Look at the top right corner, there is an option stating "Enable Metamask".
-You need to enable the Metamask by clicking on it, a pop-up will appear which will ask the access to be given to Dwork. Give the access 
+You need to enable the Metamask by clicking on it, a pop-up will appear which will ask the access to be given to dLance. Give the access 
 and then go the profile section from the drawer. You will see your Metamask id has appeared at your profile. You need to click on the
 update button to save this Metamask id. ( Metamask is a chrome extension, which is used to develop our connection with the ethereum blockchain. )
                 
@@ -58,7 +58,7 @@ button will appear on the card. When you have completed the job, the status of t
             </p>
 
             <p style={{ color: '#000', width: '80vw', fontSize: '16px' }}>
-            8.) To know more about Dwork, click on the "About Us" section.
+            8.) To know more about dLance, click on the "About Us" section.
             </p>
 
         </>
@@ -69,21 +69,21 @@ button will appear on the card. When you have completed the job, the status of t
 
         return <>
             <p style={{ color: '#000', width: '80vw', fontSize: '16px' }}>
-                1.) Signup on Dwork using your email address,
+                1.) Signup on dLance using your email address,
                  pick a password of 8 in length and from the account type drop-drown, choose "Employer". 
                  Fill out the remaining information and signup.
                 
             </p>
 
             <p style={{ color: '#000', width: '80vw', fontSize: '16px' }}>
-            2.) Log in to the Dwork using your credentials and from the account type drown, choose
+            2.) Log in to the dLance using your credentials and from the account type drown, choose
 "Employer".
                 
             </p>
 
             <p style={{ color: '#000', width: '80vw', fontSize: '16px' }}>
             3.) After logging in, you will see the Home of dashboard. Look at the top right corner, there is an option stating "Enable Metamask".
-You need to enable the Metamask by clicking on it, a pop-up will appear which will ask the access to be given to Dwork. Give the access 
+You need to enable the Metamask by clicking on it, a pop-up will appear which will ask the access to be given to dLance. Give the access 
 and then go the profile section from the drawer. You will see your Metamask id has appeared at your profile. You need to click on the
 update button to save this Metamask id. ( Metamask is a chrome extension, which is used to develop our connection with the ethereum blockchain. )
                 
@@ -110,7 +110,7 @@ proposal, the "Freelancer" can start the job and upon marking it complete, you w
               </p>
 
             <p style={{ color: '#000', width: '80vw', fontSize: '16px' }}>
-            8.) To know more about Dwork, click on the "About Us" section.
+            8.) To know more about dLance, click on the "About Us" section.
             </p>
 
         </>
@@ -122,7 +122,7 @@ proposal, the "Freelancer" can start the job and upon marking it complete, you w
 
 
         return (<div style={{paddingLeft: '5px', paddingRight: '5px'}}  >
-            <h4 style={{ color: '#000' }}>How to use Dwork?</h4>
+            <h4 style={{ color: '#000' }}>How to use dLance?</h4>
 
             <h6 style={{ color: '#000', fontSize: '18px', fontWeight: '450', marginTop: '-1px' }}>Guidelines for freelancers:</h6>
 

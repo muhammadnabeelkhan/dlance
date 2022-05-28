@@ -1,8 +1,8 @@
 {
-  "name": "dwork",
+  "name": "dLance",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://mahwishizhar.github.io/Landing-Page",
+  "homepage": "http://muhammadnabeelkhan.github.io/Landing-Page",
   "dependencies": {
     "@emotion/core": "^10.0.27",
     "@material-ui/core": "^4.8.2",

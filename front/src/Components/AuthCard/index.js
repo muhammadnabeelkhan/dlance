@@ -30,7 +30,7 @@ class AuthCard extends React.Component {
         return <div className='window animated slideInDown' style={{ width: '550px', height: '600px' }} >
             <div className='content'>
                 <div className='welcome'>Hello There!</div>
-                <div className='subtitle'>To get started, please sign-up on Dwork </div>
+                <div className='subtitle'>To get started, please sign-up on dLance </div>
                 <div className='input-fields'>
                     <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between" }}>
                         <input type='text' placeholder='First name' className='input-line full-width'
@@ -70,7 +70,7 @@ class AuthCard extends React.Component {
         return <div className='window animated fadeInDown' style={{ height: '500px', width: '360px' }}>
             <div className='content' >
                 <div className='welcome'>Hello There!</div>
-                <div className='subtitle'>Welcome back on Dwork </div>
+                <div className='subtitle'>Welcome back on dLance </div>
                 <div className='input-fields'style={{ paddingRight: '25px' }} >
                     <input type='email' placeholder='Email' className='input-line full-width' 
                         value={this.props.login_details.email} onChange={(e) => this.props.onChangeLogin(e, 'email')} ></input>

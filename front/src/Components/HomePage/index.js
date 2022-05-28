@@ -18,7 +18,7 @@ const HomePage = (props) => {
         
             <Spinner />
             <h5 style={{ color: 'black', fontWeight: 200 }}>
-              <strong> Welcome To Dwork, {props.username} 😃</strong>
+              <strong> Welcome To dLance, {props.username} 😃</strong>
               </h5>
        
       </div>
