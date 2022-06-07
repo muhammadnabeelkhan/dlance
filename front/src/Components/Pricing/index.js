@@ -17,7 +17,7 @@ return(
             <div class="pricing-tables-wrap">
                 <div class="pricing-table">
                     <div class="pricing-table-inner is-revealing">
-                        <PricingCard sign = "Gwit" money = "2" month = "/transaction" description = "What you will get" />
+                        <PricingCard sign = "" money = "" month = "" description = "What you will get" />
                         {/* <PricingButton title = "Pre order now"/> */}
                     </div>
                 </div>

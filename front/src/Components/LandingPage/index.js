@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './style.css';
-import Logo from '../../Assets/images/logo.svg';
+import Logo from '../../Assets/images/l1.png';
 
 import HeaderImage from '../HeaderImage';
 import MainBody from '../MainBody';
@@ -20,7 +20,7 @@ render(props){
             <div class="body-wrap" >
                 <HeaderImage source = {Logo}/>
                 <MainBody/>
-                <Footer image = {Logo} alter = "Logo" copyright = "2020 dLance, all rights reserved"/>
+                <Footer  image = {Logo} alter = "Logo" copyright = "2022 dLance, all rights reserved"/>
             </div>
         </body>
 

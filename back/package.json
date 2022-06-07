@@ -1,5 +1,5 @@
 {
-  "name": "dlancebackend",
+  "name": "dworkbackend",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -11,7 +11,7 @@
     "node": "8.16.0",
     "npm": "6.4.1"
   },
-  "author": "muhammadnabeelkhan",
+  "author": "hur ali",
   "license": "MIT",
   "dependencies": {
     "@firebase/app": "^0.6.2",

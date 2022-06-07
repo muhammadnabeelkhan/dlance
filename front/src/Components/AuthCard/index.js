@@ -3,6 +3,7 @@ import './style.css'
 import { Container, Row, Col } from 'react-grid-system';
 import Dropdown from 'react-dropdown'
 import 'react-dropdown/style.css'
+import { rgbToHex } from '@material-ui/core';
 
 
 class AuthCard extends React.Component {
@@ -94,8 +95,8 @@ class AuthCard extends React.Component {
 
     render() {
         return (
-            <Container fluid style={{ height: '100%' }} >
-                <Row style={{ height: '100%', backgroundColor: '#1d2026' }} fluid>
+            <Container className='row_background'  fluid style={{ height: '100%' }} >
+                <Row style={{ height: '100%' }} fluid>
                     <Col lg={3} sm={3} md={3}></Col>
 
                     <Col lg={6} sm={6} md={6}>

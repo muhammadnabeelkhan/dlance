@@ -1,5 +1,5 @@
 import { Api } from "../../API"
-
+import {saveAddr} from "../../BlockChain/config"
 const Actions = {
 
     Signup: (data, completed, failed) => {
@@ -23,6 +23,7 @@ const Actions = {
     },
 
     Login: (data, completed, failed) => {
+// console.log(data)
         return dispatch => {
             dispatch({ type: 'START_LOADING' })
 
@@ -66,7 +67,7 @@ const Actions = {
                 dispatch({ type: 'STOP_LOADING' })
                 Api.post(data, '/Profile', success => {
                     dispatch({ type: 'UPDATE_USER_INFO', payload: success.userdata })
-                    
+                    saveAddr(data.accountNo)
                 }, error => {
                     
                 })
@@ -212,10 +213,6 @@ const Actions = {
                 return failed(error)
             })
         }
-    },
-
-    getFile: (file) =>{
-
     },
 
 }

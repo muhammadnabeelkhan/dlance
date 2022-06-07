@@ -10,8 +10,6 @@ import ResponsiveDrawer from './Components/ResponsiveDrawer';
 import LoadingOverlay from 'react-loading-overlay';
 
 
-
-
 const Routing = (props) => { 
 
   return (<Router basename="/" >

@@ -175,7 +175,7 @@ _enableMetaMask = () => {
           <HomePage classes={this.props} username={this.props.Reducer.userInfo.username} 
           _onSignOut={this._onSignOut} _enableMetaMask={this._enableMetaMask} />
       }
-      }
+      
 
     
    </div>

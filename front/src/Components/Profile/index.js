@@ -46,7 +46,6 @@ class Profile extends Component {
             ? this.props.Reducer.metamask_acc != '' ? this.props.Reducer.metamask_acc
              : this.state.userInfo.accountNo : this.state.userInfo.accountNo 
         }
-        
 
         this.props.EditProfile( data, success => {
 

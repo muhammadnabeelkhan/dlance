@@ -1,4 +1,9 @@
-export const smart_contract_address = '0x49a84C506e1f222eDcC174D7dBfB146Fe9E80e06'
+let data = "";
+export function saveAddr(data){
+	this.data = data;
+}
+
+export const smart_contract_address = '0xCf6347b0a0315589974522FE843046F4ef71C500'
 
 export const smart_contract_ABI = [
 	{

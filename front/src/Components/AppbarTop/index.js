@@ -7,7 +7,7 @@ import Typography from '@material-ui/core/Typography';
 import { withStyles } from '@material-ui/core/styles';
 import PropTypes from 'prop-types';
 
-const drawerWidth = 240;
+const drawerWidth = 0;
 
 const styles = theme => ({
     root: {
@@ -39,7 +39,7 @@ const styles = theme => ({
     toolbar: theme.mixins.toolbar,
     drawerPaper: {
       width: drawerWidth,
-      background: 'linear-gradient( #50c878,#5FB5A7 )',
+      background: 'linear-gradient(  #0000, #0000 )',
      
     },
     content: {
@@ -64,7 +64,7 @@ const AppbarTop = (props) =>
     
     <AppBar position="fixed" className={classes.appBar} style={{
       
-      backgroundColor:'#242830'
+      backgroundColor:' #17202A'
       
       }}>
       

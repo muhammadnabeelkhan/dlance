@@ -36,7 +36,7 @@ const Footer = (props) => {
             <a href="#">
                 <span class="screen-reader-text">{value.title}</span>
                 <svg width="16" height="16" xmlns={value.xml}>
-                    <path d={value.path} fill="#0270D7" />
+                    <path d={value.path} fill= "white" />
                 </svg>
             </a>
         </li>
@@ -48,7 +48,7 @@ const Footer = (props) => {
             <div class="container">
                 <div class="site-footer-inner">
                     <div class="brand footer-brand">
-                        <a href="#">
+                        <a style={{width:"10%"}} href="#">
                             <img class="header-logo-image" src={props.image} alt={props.alter} />
                         </a>
                     </div>

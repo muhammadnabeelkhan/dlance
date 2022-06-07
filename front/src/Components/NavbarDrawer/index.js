@@ -25,10 +25,9 @@ const styles = theme => ({
       width: `calc(100% - ${drawerWidth}px)`,
      
     },
-    
   },
   menuButton: {
-    marginRight: 20,
+    marginRight: 0,
     [theme.breakpoints.up('sm')]: {
       display: 'none',
     },
@@ -36,7 +35,7 @@ const styles = theme => ({
   toolbar: theme.mixins.toolbar,
   drawerPaper: {
     width: drawerWidth,
-    backgroundColor:'#242830'
+    backgroundColor: '#17202A '
     
    
   },
@@ -45,7 +44,7 @@ const styles = theme => ({
     padding: theme.spacing.unit * 3,
     display:'block',
     justifyContent:'flex-start',
-    background:'#cccc',
+    background:'white',
   },
   nested: {
     paddingLeft: theme.spacing.unit * 4,

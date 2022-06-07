@@ -30,12 +30,12 @@ class ListElements extends React.Component {
     render() {
         return (
             <List style={{ paddingTop: '0px', paddingBottom: '0px' }}>
-                <ListItem button style={{ marginLeft: '-10' }} onClick={() => this.props.handleClick()}>
+                <ListItem button style={{ marginLeft: '0px' }} onClick={() => this.props.handleClick()}>
                     <ListItemIcon>
-                        <HomeIcon style={{ color: 'white' }} />
+                        <HomeIcon style={{ color: '#EA6A47' }} />
                     </ListItemIcon>
                     <ListItemText primary={'Home Page'} style={{ color: 'white', fontSize: 8 }} />
-                    {this.props.homeOPEN ? <ExpandLess style={{ color: 'white' }} /> : <ExpandMore style={{ color: 'white' }} />}
+                    {this.props.homeOPEN ? <ExpandLess style={{ color: 'white' }} /> : <ExpandMore style={{ color: '#EA6A47' }} />}
                 </ListItem>
                 {
                     <Collapse in={this.props.homeOPEN} timeout="auto" unmountOnExit>
@@ -47,7 +47,7 @@ class ListElements extends React.Component {
                                         .map((text, index) => (
                                             <ListItem button key={text}
                                                 className={this.props.nested} onClick={() => this.props.clickFunction(text)}>
-                                                <ListItemIcon style={{ color: 'white' }}>
+                                                <ListItemIcon style={{ color: '#EA6A47' }}>
                                                     {
                                                             (index === 0) ? <Profile />
                                                             : (index === 1) ? <WorkOutline />
@@ -65,7 +65,7 @@ class ListElements extends React.Component {
                                         .map((text, index) => (
                                             <ListItem button key={text}
                                                 className={this.props.nested} onClick={() => this.props.clickFunction(text)}>
-                                                <ListItemIcon style={{ color: 'white' }}>
+                                                <ListItemIcon style={{ color: '#EA6A47' }}>
                                                     {
                                                         (index === 0) ? <Profile />
                                                             : (index === 1) ? <WorkOutline />

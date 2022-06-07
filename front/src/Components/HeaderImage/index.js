@@ -9,7 +9,7 @@ return(
             <div class="brand header-brand">
                 <h1 class="m-0">
                     <a href="#">
-                        <img class="header-logo-image" src={props.source} alt="Logo"/>
+                        <img  style={{width :"70%"}} class="header-logo-image" src={props.source} alt="Logo"/>
                     </a>
                 </h1>
             </div>

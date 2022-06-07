@@ -4,7 +4,7 @@ const PricingCard = (props) => {
 
 
     let array = ['Become a freelancer or client', 'Post or find jobs',
-        'Create invoices after successful completion of project', 'Send feedback about client or freelancer']
+        'Create invoices after successful completion of project']
 
     const mappedCard = array.map((value) => {
 
