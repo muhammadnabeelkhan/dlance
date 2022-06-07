@@ -92,16 +92,17 @@ class ViewJobCard extends Component {
             job_id: this.props.jobDetails.job_id
         }
 
-        let blockChain_data = {
-            employer: this.props.jobDetails.email,
-            freelancer: this.props.Reducer.userInfo.email,
-            amount: this.props.jobDetails.budget,
-            job_id: this.props.jobDetails.job_id,
-            status: "started"
-        }
+        // let blockChain_data = {
+        //     employer: this.props.jobDetails.email,
+        //     freelancer: this.props.Reducer.userInfo.email,
+        //     amount: this.props.jobDetails.budget,
+        //     job_id: this.props.jobDetails.job_id,
+        //     status: "started"
+        // }
 
         this.props.toggleLoading()
-        this._enableMetaMask(blockChain_data, completed => {
+        // this._enableMetaMask(blockChain_data, completed =>
+             
 
             this.props.startJob(data, success => {
                 if (success.status == 'success') {
@@ -114,9 +115,6 @@ class ViewJobCard extends Component {
                 this.props.toggleLoading()
                 ToastsStore.error(error.message)
             })
-        }, failed => {
-
-        })
 
     }
 
