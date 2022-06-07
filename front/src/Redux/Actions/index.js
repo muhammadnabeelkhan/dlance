@@ -23,7 +23,6 @@ const Actions = {
     },
 
     Login: (data, completed, failed) => {
-// console.log(data)
         return dispatch => {
             dispatch({ type: 'START_LOADING' })
 
@@ -63,7 +62,6 @@ const Actions = {
                 path: 'abc',
                 content: data
             }
-
             Api.post(userData, '/editProfile', success => {
                 dispatch({ type: 'STOP_LOADING' })
                 Api.post(data, '/Profile', success => {
@@ -214,6 +212,10 @@ const Actions = {
                 return failed(error)
             })
         }
+    },
+
+    getFile: (file) =>{
+
     },
 
 }

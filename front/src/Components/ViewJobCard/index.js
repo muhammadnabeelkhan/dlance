@@ -80,8 +80,6 @@ class ViewJobCard extends Component {
             this.props.toggleLoading()
             ToastsStore.error(error.message)
         })
-
-
     }
 
 
@@ -92,30 +90,19 @@ class ViewJobCard extends Component {
             job_id: this.props.jobDetails.job_id
         }
 
-        let blockChain_data = {
-            employer: this.props.jobDetails.email,
-            freelancer: this.props.Reducer.userInfo.email,
-            amount: this.props.jobDetails.budget,
-            job_id: this.props.jobDetails.job_id,
-            status: "started"
-        }
 
         this.props.toggleLoading()
-        this._enableMetaMask(blockChain_data, completed => {
 
-            this.props.startJob(data, success => {
-                if (success.status == 'success') {
-                    this.props._reloadJobs()
-                }
-                else {
-                    this.props.toggleLoading()
-                }
-            }, error => {
+        this.props.startJob(data, success => {
+            if (success.status == 'success') {
+                this.props._reloadJobs()
+            }
+            else {
                 this.props.toggleLoading()
-                ToastsStore.error(error.message)
-            })
-        }, failed => {
-
+            }
+        }, error => {
+            this.props.toggleLoading()
+            ToastsStore.error(error.message)
         })
 
     }
@@ -127,8 +114,6 @@ class ViewJobCard extends Component {
             job_id: this.props.jobDetails.job_id
         }
 
-
-        this.props.toggleLoading()
         this.props.completeJob(data, success => {
             if (success.status == 'success') {
                 this.props._reloadJobs()
@@ -168,7 +153,7 @@ class ViewJobCard extends Component {
                 <Button variant="contained" color="primary"
                     onClick={this._onClickApply} >
                     Apply
-            </Button>
+                </Button>
             </div>
     }
 
@@ -202,7 +187,7 @@ class ViewJobCard extends Component {
                             flexDirection: 'row',
                             alignItems: 'center'
                         }}>
-                            <h6 className="textStyle" style={{marginRight: '4px'}} >Posted by: </h6> {this.props.jobDetails.email}</div>
+                            <h6 className="textStyle" style={{ marginRight: '4px' }} >Posted by: </h6> {this.props.jobDetails.email}</div>
                     </div>
             }
 

@@ -154,10 +154,10 @@ class NotifCard extends Component {
     render() {
 
         return (<Paper elevation={3} className="Container" >
-
+            
             <div className="RowContainer">
                 <p><h6 className="textStyle">Job Request by: </h6>{this.props.jobDetails.freelancer_email}</p>
-
+                
             </div>
             <div className="RowContainer">
                 <p>{this.props.jobDetails.message}</p>
